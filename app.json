@@ -1,7 +1,8 @@
 {
   "expo": {
-    "name": "live-coding-expo",
-    "slug": "live-coding-expo",
+    "name": "Sleeplog",
+    "slug": "sleeplog",
+    "scheme": "sleeplog",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -20,6 +21,10 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "plugins": [
+      "expo-router",
+      "@react-native-community/datetimepicker"
+    ]
   }
 }
